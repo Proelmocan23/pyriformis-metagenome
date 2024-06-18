@@ -1,0 +1,16 @@
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/CeMRE.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/DeMREI-1.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/DeMREI-2.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/DeMREII.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/DhMRE.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/GpMRE.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/RcMRE.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/RvMRE.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/mycoplasmoides_genitalium.faa
+--pi_cutoff minimum_percent_identity 0.50
+--pmatch_cutoff minimum_percent_matching 0.50
+--blast_cpus 30
+--blast_b 10
+--blast_v 10
+--working_directory /home/madhu/FastOrtho/src/working_dir_essam/MRE
+--project_name MRE

@@ -1,0 +1,12 @@
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/ordered_18Npcontigs.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/Reference_Nostoc_GCF_000020025.1.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/Peltigera_membranacea_cyanobiont.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/Nostoc_edaphicum.faa
+--single_genome_fasta /home/madhu/FastOrtho/src/working_dir_essam/Nostoc_sphaeroides.faa
+--pi_cutoff minimum_percent_identity 0.50
+--pmatch_cutoff minimum_percent_matching 0.50
+--blast_cpus 30
+--blast_b 10
+--blast_v 10
+--working_directory /home/madhu/FastOrtho/src/working_dir_essam/bakta_nostoc_2
+--project_name nostoc_five_species
