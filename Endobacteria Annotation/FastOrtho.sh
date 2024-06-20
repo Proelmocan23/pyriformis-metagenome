@@ -4,6 +4,10 @@
 #Remember to also run the Bakta protein prediction tool for ALL the species, and use the .faa output for this analysis  
 /home/madhu/FastOrtho/src/FastOrtho nostoc5.txt
 
+#MRE FastOrtho for KEGG and COG
+#Remember to also run the Bakta protein prediction tool for ALL the species, and use the .faa output for this analysis  
+/home/madhu/FastOrtho/src/FastOrtho MRE8.txt
+
 ##################################################################################MRE FastOrtho to identify the 14 SCO and create a phylogentic tree (figure 5)##################################################################################
 
 #MRE FastOrtho 
@@ -16,7 +20,7 @@
 python single_copy_parser.py 
 
 
-# all the tree in this project followed a similar pipeline of mafft -> catfasta2phyml.pl -> trimal -> iqtree
+# all the trees in this project followed a similar pipeline of mafft -> catfasta2phyml.pl -> trimal -> iqtree
 
 mafft --localpair --maxiterate 1000  --auto ORTHOMCL98.faa > aln98
 mafft --localpair --maxiterate 1000  --auto ORTHOMCL104.faa > aln104

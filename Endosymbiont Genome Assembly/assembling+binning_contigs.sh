@@ -35,3 +35,5 @@ mkdir concoct_output/fasta_bins
 #Taxonomic assignment of the bins:
 
 <Path to diamond-0.9.14>/diamond blastx -q contigs.fasta -d /shared/programs/nr_diamond/nr_diamond_out  -o geo_contigs_blastx  -f 0 --max-hsps 1 --top 10 -e 1e-5 -p 40
+
+python3 parsingdiamondblast.py geo_contigs_blastx > output.tsv

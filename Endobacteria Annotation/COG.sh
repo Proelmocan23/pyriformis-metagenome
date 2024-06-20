@@ -38,8 +38,6 @@ diamond blastp --db /New_share/New_share/COG_diamond/COG_diamond.dmnd -q Ns_uni.
 wait
 diamond view --daa Nostoc_sphaeroides_uni.cogs.daa -o Nostoc_sphaeroides_uni.cogs -f tab
 wait
-python DIAMOND_COG2020_analysis_counter.py -I Nostoc_sphaeroides_uni.cogs -O Nostoc_edaphicum_uniresult.cogs -D merged_cogs.fa
-wait
 #Nsp. PMC N6
 diamond blastp --db /New_share/New_share/COG_diamond/COG_diamond.dmnd -q PMC_uni.faa -a Peltigera_membranacea_cyanobiont_uni.cogs
 wait
